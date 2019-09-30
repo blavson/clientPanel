@@ -41,7 +41,7 @@ import { ClientService } from './services/client.service';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuth
+    AngularFireAuthModule
   ],
   providers: [ClientService],
   bootstrap: [AppComponent]
